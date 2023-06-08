@@ -167,3 +167,53 @@ The API handles errors using the "createError" utility function. Each endpoint c
 The API uses "JSON Web Tokens (JWT)" for user authentication and authorization. When a user or admin logs in, an access token is generated and returned in the response. This token needs to be included in the Authorization header of subsequent requests to authenticate and authorize the user or admin.
 
 All routes except for the authentication routes (/signup and /login) require a valid access token to be included in the request headers. If an invalid or expired token is provided, the API will return a 401 Unauthorized error.
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/MOHANcoder/Flight-Ticket-Booking
+```
+
+Go to the project directory
+
+```bash
+  cd Flight-Ticket-Booking
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+
+## Screenshots
+
+![App Screenshot]()
+![Screenshot (36)](https://github.com/MOHANcoder/Flight-Ticket-Booking/assets/101055189/222e813d-6251-44aa-9dd3-63a6b396c481)
+![Screenshot (37)](https://github.com/MOHANcoder/Flight-Ticket-Booking/assets/101055189/08e947de-8502-4989-9ee1-22227a43c0ef)
+![Screenshot (38)](https://github.com/MOHANcoder/Flight-Ticket-Booking/assets/101055189/9aa6aa21-2f14-4613-b427-6e1bef440e5a)
+![Screenshot (39)](https://github.com/MOHANcoder/Flight-Ticket-Booking/assets/101055189/e86f45ea-0b33-4d61-8ddb-14e93682ae8d)
+![Screenshot (40)](https://github.com/MOHANcoder/Flight-Ticket-Booking/assets/101055189/71dfaf4e-c62f-4882-9a55-3f2254452655)
+![Screenshot (41)](https://github.com/MOHANcoder/Flight-Ticket-Booking/assets/101055189/bc35b3ad-7dad-4163-9b52-9fb7e85fe757)
+![Screenshot (42)](https://github.com/MOHANcoder/Flight-Ticket-Booking/assets/101055189/f02b93e5-bb77-44d4-8da6-2f54a864d66d)
+![Screenshot (43)](https://github.com/MOHANcoder/Flight-Ticket-Booking/assets/101055189/fe6ab3bb-aa50-469d-a2c1-96a7e8e382fa)
+![Screenshot (44)](https://github.com/MOHANcoder/Flight-Ticket-Booking/assets/101055189/fe1a9748-2fbd-4c2a-8874-98b687cfcdaa)
+![Screenshot (45)](https://github.com/MOHANcoder/Flight-Ticket-Booking/assets/101055189/ecbf86e1-098c-485b-8c0e-4dda2f1f141f)
+![Screenshot (46)](https://github.com/MOHANcoder/Flight-Ticket-Booking/assets/101055189/edf4fffe-068f-4e14-983e-2e45e3efb078)
+![Screenshot (47)](https://github.com/MOHANcoder/Flight-Ticket-Booking/assets/101055189/2892f181-3c97-48f3-a659-dbe948bf66a6)
+![Screenshot (48)](https://github.com/MOHANcoder/Flight-Ticket-Booking/assets/101055189/6f43f816-dfeb-4825-9d1d-5ef937764b4b)
+![Screenshot (49)](https://github.com/MOHANcoder/Flight-Ticket-Booking/assets/101055189/380bcaba-042f-42ac-b963-68c6ee8ba203)
+![Screenshot (50)](https://github.com/MOHANcoder/Flight-Ticket-Booking/assets/101055189/39de8414-4895-4f25-acfd-d447efd6ace2)
+![Screenshot (51)](https://github.com/MOHANcoder/Flight-Ticket-Booking/assets/101055189/8bfcf4d3-940a-4023-943d-a5655d020711)
+![Screenshot (52)](https://github.com/MOHANcoder/Flight-Ticket-Booking/assets/101055189/57819098-a853-437a-8692-85bd438086b1)
+![Screenshot (53)](https://github.com/MOHANcoder/Flight-Ticket-Booking/assets/101055189/531956f2-d38a-4e4b-88b2-56031e2b120c)
+
