@@ -20,7 +20,7 @@ module.exports = {
     verifyToken, // Export the verifyToken middleware function
     verifyUser: (req, res, next) => { // Middleware function for verifying user role
         verifyToken(req, res, () => {
-            if (req.user.id && req.user.role === "user") { // If the user ID and role are present and the role is "user", proceed to the next middleware
+            if (req.user.role === "user") { // If the role is "user", proceed to the next middleware
                 next();
             } else {
                 return next(createError(403, "You are not authorized!")); // If the user is not authorized, create and pass an authorization error to the next middleware
@@ -29,7 +29,7 @@ module.exports = {
     },
     verifyAdmin: (req, res, next) => { // Middleware function for verifying admin role
         verifyToken(req, res, () => {
-            if (req.user.id && req.user.role === "admin") { // If the user ID and role are present and the role is "admin", proceed to the next middleware
+            if (req.user.role === "admin") { // If the role is "admin", proceed to the next middleware
                 next();
             } else {
                 return next(createError(403, "You are not authorized!")); // If the user is not authorized, create and pass an authorization error to the next middleware
