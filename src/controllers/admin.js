@@ -53,7 +53,7 @@ module.exports = {
     getAllBookings: async (req, res, next) => {
         try {
             const { flightNumber, departureTime,departureDate } = req.query;
-            console.log(flightNumber,departureTime,departureDate);
+            
             // Set the conditions based on the provided query parameters
             const conditions = {};
             if (flightNumber)
