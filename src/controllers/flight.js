@@ -99,7 +99,7 @@ module.exports = {
       }
 
       // Check if there are available seats on the flight
-      if (flight.availableSeats <= 0) {
+      if (flight.availableSeats == 0) {
         return res.status(400).json({ success: false, message: "No available seats on this flight!" });
       }
 
