@@ -43,7 +43,7 @@ To use the API, clients need to send HTTP requests to the specified endpoints wi
     Log out the currently authenticated user.
 
 ### User
--       GET /users/bookings 
+-       GET /users/mybookings 
 
     Get the bookings of the authenticated user.
 
@@ -197,7 +197,6 @@ Start the server
 
 ## Screenshots
 
-![App Screenshot]()
 ![Screenshot (36)](https://github.com/MOHANcoder/Flight-Ticket-Booking/assets/101055189/222e813d-6251-44aa-9dd3-63a6b396c481)
 ![Screenshot (37)](https://github.com/MOHANcoder/Flight-Ticket-Booking/assets/101055189/08e947de-8502-4989-9ee1-22227a43c0ef)
 ![Screenshot (38)](https://github.com/MOHANcoder/Flight-Ticket-Booking/assets/101055189/9aa6aa21-2f14-4613-b427-6e1bef440e5a)
