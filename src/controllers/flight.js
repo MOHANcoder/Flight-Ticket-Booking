@@ -128,7 +128,7 @@ module.exports = {
       const ticket = new Ticket({
         userId: req.user.id,
         flightId: flight._id,
-        seat: seatNumber,
+        seat: seatNumber+1,
         passengerName: user.username,
         boardingDate: new Date(flight.departureDate),
         boardingTime: flight.departureTime
